@@ -1,5 +1,7 @@
-import React from 'react';
-import ContactForm from './ContactForm';
+"use client"
+import { motion, AnimatePresence } from "framer-motion";
+import React, { useState } from 'react';
+
 
 const Page = () => {
   const [formData, setFormData] = useState({
