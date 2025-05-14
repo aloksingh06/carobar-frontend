@@ -1,9 +1,11 @@
-import React from 'react'
+// app/components/HeroPage.jsx
+import React from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
 const HeroPage = () => {
   return (
-     <section className="min-h-screen relative overflow-hidden bg-black text-white">
+    <section className="min-h-screen relative overflow-hidden bg-black text-white">
       {/* Background Image using Next.js Image */}
       <div className="absolute inset-0">
         <Image
@@ -30,7 +32,7 @@ const HeroPage = () => {
           </p>
           <div className="flex gap-4 justify-start">
             <button className="bg-luxury-gold text-luxury-black px-8 py-3 rounded-md hover:bg-white transition-colors duration-200">
-              Book Now
+              <Link href="/about">Learn More About Us</Link>
             </button>
             <button className="border border-white px-8 py-3 rounded-md hover:bg-white hover:text-luxury-black transition-colors duration-200">
               Explore Cars
@@ -39,7 +41,7 @@ const HeroPage = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroPage
+export default HeroPage;
