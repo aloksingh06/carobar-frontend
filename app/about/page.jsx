@@ -15,35 +15,27 @@ export default function AboutPage() {
     <div className="w-full overflow-x-hidden">
       {/* Hero Section */}
       <section
-        className="h-screen bg-cover bg-center relative flex items-center justify-center"
-        style={{ backgroundImage: "url('/about.jpg')" }}
+        className="h-screen bg-cover bg-center relative flex pt-40 justify-center"
+        style={{ backgroundImage: "url('/image/aboutimg1.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-60 z-0" />
+        <div className=" inset-0 bg-black bg-opacity-60 z-0" />
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="z-10 text-white px-6 md:px-32 max-w-7xl text-center space-y-6"
+          className="z-10 text-white px-6 md:px-32 max-w-7xl text-center space-y-2"
         >
-          <p className="text-sm tracking-widest text-orange-300 uppercase">Welcome To</p>
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight">Romans International</h1>
-          <p className="text-lg md:text-xl text-gray-200 leading-loose">
-            Premium supercar dealership with a legacy of excellence since 1994. We pride ourselves on providing an
-            unparalleled experience in the world of high-performance automobiles.
-          </p>
-          <p className="text-gray-300 text-base md:text-lg leading-loose">
-            Discover the latest in luxury and performance. Every vehicle in our curated lineup speaks of style,
-            sophistication, and mechanical brilliance. Let your journey to luxury begin here.
-          </p>
+          <p className="text-4xl font-bold tracking-widest text-orange-300 uppercase">Welcome To</p>
+          <h1 className="text-4xl md:text-[150px] font-bold border-b-[2px] leading-36">Carobar</h1>
+          <h1 className='text-4xl font-semibold mt-5 text-zinc-200' >Dream Car Simplified</h1>
         </motion.div>
       </section>
 
       {/* Luxury Section */}
       <section
-        className="h-screen flex items-center justify-center px-6 relative bg-cover bg-center bg-fixed"
+        className="h-screen flex items-center justify-center bg-white px-6 relative  bg-center bg-fixed"
         style={{ backgroundImage: "url('/xyz.jpg')" }}
       >
-        <div className="absolute inset-0 bg-blue-900 bg-opacity-80 backdrop-blur-sm" />
 
         {/* Light Flash Overlay */}
         <motion.div
@@ -58,17 +50,17 @@ export default function AboutPage() {
           whileInView="visible"
           viewport={{ once: true }}
           variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
-          className="max-w-7xl w-full relative z-20"
+          className="max-w-7xl w-full  relative z-20"
         >
           <motion.h2
             variants={cardVariants}
-            className="text-4xl md:text-5xl font-bold text-white text-center mb-8"
+            className="text-4xl md:text-5xl font-bold text-black text-center mb-8"
           >
             Luxury Car Rental Excellence
           </motion.h2>
           <motion.p
             variants={cardVariants}
-            className="text-gray-200 text-center mb-12 text-lg px-4 md:px-32 leading-relaxed"
+            className="text-zinc-500 text-center mb-12 text-lg px-4 md:px-32 leading-relaxed"
           >
             From exotic sports cars to luxury sedans, we offer a seamless rental experience that matches your lifestyle
             and class. Indulge in comfort, performance, and elegance — all in one ride.

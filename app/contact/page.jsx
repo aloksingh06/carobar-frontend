@@ -47,10 +47,10 @@ const Page = () => {
           </p>
           <div className="text-gray-300 space-y-2 text-sm md:text-base text-center lg:text-left">
             <h3 className="text-2xl font-semibold mb-2 text-white">Advertising Inquiries</h3>
-            <p>Email: <a href="mailto:advertise@dupontregistry.com" className="text-indigo-400 hover:underline">advertise@dupontregistry.com</a></p>
-            <p>Phone: <a href="tel:+17275739339" className="text-indigo-400 hover:underline">(727) 573-9339</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/company/dupontregistry" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">@dupontregistry</a></p>
-            <p>Address: 4600 140th Avenue North #210, Clearwater, FL 33762, US</p>
+            <p>Email: <a href="mailto:advertise@dupontregistry.com" className="text-indigo-400 hover:underline">carobar@gmail.com</a></p>
+            <p>Phone: <a href="tel:+17275739339" className="text-indigo-400 hover:underline">7974022330</a></p>
+            {/* <p>LinkedIn: <a href="https://www.linkedin.com/company/dupontregistry" target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:underline">@dupontregistry</a></p> */}
+            <p>Carobar Import & Carnet Solutions, Near BTI ground, Shankar Nagar, Raipur-492001</p>
           </div>
         </div>
 

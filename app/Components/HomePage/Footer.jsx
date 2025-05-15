@@ -8,18 +8,19 @@ const Footer = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-15">
         {/* Logo & Address */}
         <div className="mb-6">
-          <img
+          {/* <img
             src="/logo.svg"
             alt="Romans International"
             className="mx-auto h-8 mb-4"
-          />
-          <p className="uppercase tracking-wide text-white text-sm">
+          /> */}
+          <h1 className="text-6xl font-bold text-white">Carobar</h1>
+          <p className="uppercase tracking-wide text-zinc-200 text-sm mt-4">
             Dream Your Simplified
           </p>
         </div>
 
         {/* Social Icons */}
-        <div className="flex justify-center gap-4 sm:gap-6 text-white text-xl mb-4 flex-wrap">
+        <div className="flex justify-center gap-2 sm:gap-6 text-white text-xl mb-4 flex-wrap">
           <a href="#">
             <FaInstagram size={40} />
           </a>
@@ -35,7 +36,7 @@ const Footer = () => {
         </div>
 
         {/* Phone */}
-        <p className="text-white text-lg mb-8">01737 428 862</p>
+        <p className="text-white text-lg mb-8">7974022330</p>
 
         {/* Disclaimer */}
         <p className="text-sm text-gray-400 max-w-xl sm:max-w-5xl mx-auto mb-4 px-2 sm:px-0">

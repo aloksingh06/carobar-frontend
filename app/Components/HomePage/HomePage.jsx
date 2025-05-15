@@ -219,12 +219,7 @@ const HomePage = () => {
                           >
                             {car.type}
                           </span>
-                          <span
-                            style={{ color: "#d4af37" }}
-                            className="font-semibold"
-                          >
-                            {car.service}
-                          </span>
+                          
                         </div>
                         <button
                           className="w-full py-2 rounded-md transition-colors duration-300"

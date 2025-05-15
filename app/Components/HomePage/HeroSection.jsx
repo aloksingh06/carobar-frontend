@@ -27,7 +27,7 @@ const HeroSection = () => {
         animate={{ opacity: 0.5, scale: 1, transition: { duration: 1.2, ease: 'easeOut' } }}
       >
         <Image
-          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2070&q=80"
+          src={'/image/homeImage.png'}
           alt="Luxury Car"
           fill
           className="object-cover"
@@ -51,13 +51,13 @@ const HeroSection = () => {
 
 <motion.h1
   variants={fadeUpVariants}
-  className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
+  className="text-5xl md:text-7xl font-bold mb-6  w-[80vw] leading-tight"
 >
   Drive in Style,
   {' '}
-  <span className="text-[#d4af37] block sm:inline">
+  <span className="text-[#d4af37]  sm:inline">
     <Typewriter
-      words={['Import', 'Carnet', 'Rent']}
+      words={['Import', 'Carnet', 'Pre-Owned Cars']}
       loop={0}
       cursor
       cursorStyle="|"
@@ -82,7 +82,7 @@ const HeroSection = () => {
             <button className="bg-[#d4af37] text-black px-8 py-3 rounded-md hover:bg-white transition-colors duration-200">
               Book Now
             </button>
-            <button className="border border-white px-8 py-3 rounded-md hover:bg-white hover:text-luxury-black transition-colors duration-200">
+            <button className="border border-white px-8 py-3 rounded-md hover:bg-white hover:text-black hover:text-luxury-black transition-colors duration-200">
               Explore Cars
             </button>
           </motion.div>

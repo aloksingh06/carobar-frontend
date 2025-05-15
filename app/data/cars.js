@@ -10,10 +10,16 @@ export const cars = [
     service: 'Rental',
     type: 'Luxury SUV',
     images: [
+      '/image/LandRover.jpeg',
       '/image/LandRover1.jpeg',
-      '/image/LandRover2.jpeg',
-      '/image/LandRover3.jpeg',
+      
     ],
+    Car_Price_dubai: "₹10,00,000",
+  Import_Duties_Taxes: "₹18,73,680",
+  Shipping_insurance_etc: "₹1,10,000",
+  RTO_Registration: "₹1,50,000",
+  Miscellaneous_Costs: "₹1,00,000",
+  Total_Estimated_Cost: "₹32.3–₹33 lakh"
   },
   {
     id: '2',
@@ -23,14 +29,37 @@ export const cars = [
     price: '35 Lakh',
     service: 'Rental',
     type: 'Sport',
+    images: [
+      '/image/Porsche.jpeg',
+      '/image/Porsche1.jpeg',
+      '/image/Porsche2.jpeg',
+      '/image/Porsche4.jpeg',
+      '/image/Porsche5.jpeg',
+    ],
+     Car_Price_dubai: "₹10,00,000",
+  Import_Duties_Taxes: "₹18,73,680",
+  Shipping_insurance_etc: "₹1,10,000",
+  RTO_Registration: "₹1,50,000",
+  Miscellaneous_Costs: "₹1,00,000",
+  Total_Estimated_Cost: "₹32.3–₹33 lakh"
   },
   {
     id: '3',
-    name: 'Land Rover',
-    image:'/image/LandRover.jpeg',
-    description: 'Luxury SUV',
+    name: 'Ferrari',
+    image:'/image/Ferrari.jpeg',
+    description: 'Super Car',
     price: '35 Lakh',
     service: 'Rental',
-    type: 'Luxury SUV',
+    type: 'Super Car',
+    images: [
+      '/image/Ferrari.jpeg',
+      
+    ],
+     Car_Price_dubai: "₹10,00,000",
+  Import_Duties_Taxes: "₹18,73,680",
+  Shipping_insurance_etc: "₹1,10,000",
+  RTO_Registration: "₹1,50,000",
+  Miscellaneous_Costs: "₹1,00,000",
+  Total_Estimated_Cost: "₹32.3–₹33 lakh"
   },
 ];
