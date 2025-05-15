@@ -46,7 +46,7 @@ const HeroSection = () => {
             variants={fadeUpVariants}
             className="text-[#d4af37] uppercase mb-4 inline-flex rounded-3xl bg-white/10 backdrop-blur-sm shadow-lg border border-white/10 px-4 py-2"
           >
-            Dream Your Simplified
+            Dream Car Simplified
           </motion.span>
 
 <motion.h1
