@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Car, Star, Clock } from 'lucide-react';
+import Footer from '../Components/HomePage/Footer';
 
 export default function AboutPage() {
   const cardVariants = {
@@ -10,6 +11,7 @@ export default function AboutPage() {
   };
 
   return (
+    <>
     <div className="w-full overflow-x-hidden">
       {/* Hero Section */}
       <section
@@ -116,5 +118,12 @@ export default function AboutPage() {
         </motion.div>
       </section>
     </div>
+
+    {/* footer section  */}
+    <section>
+      <Footer/>
+    </section>
+    </>
+    
   );
 }

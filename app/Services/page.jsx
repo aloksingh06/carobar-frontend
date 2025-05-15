@@ -104,7 +104,7 @@ export default function ServiceSection() {
 
   return (
     <>
-    <div className="text-white bg-blue-300 min-h-screen w-full">
+    <div className="text-white  min-h-screen w-full">
       {/* Landing Page */}
       <motion.div
         initial={{ opacity: 0 }}

@@ -1,6 +1,7 @@
 "use client"
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from 'react';
+import Footer from "../Components/HomePage/Footer";
 
 
 const Page = () => {
@@ -27,6 +28,7 @@ const Page = () => {
       // Yahan aap API call ya confirmation logic laga sakte ho
     };
   return (
+    <>
     <div
       className="min-h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
       style={{ backgroundImage: "url('/contactimg.jpg')" }}
@@ -137,6 +139,12 @@ const Page = () => {
         </div>
       </div>
     </div>
+
+    {/* footer section  */}
+    <section>
+      <Footer/>
+    </section>
+    </>
   );
 };
 
