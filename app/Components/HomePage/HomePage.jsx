@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { BookOpenCheck, MapPin, Car } from "lucide-react";
+import { cars } from '../../data/cars';
 
 const HomePage = () => {
   const services = [
@@ -178,11 +179,11 @@ const HomePage = () => {
             </p>
           </motion.div>
           <div className="grid  md:grid-cols-3 gap-8">
-            {featuredCars.map((car, index) => {
+            {cars.map((car, index) => {
               // Slugify name for dynamic route
               const slug = car.name.toLowerCase().replace(/\s+/g, "-");
               return (
-                <Link href={`/cars/${slug}`} key={index}>
+                <Link href={`/book/${car.id}`} key={index}>
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
